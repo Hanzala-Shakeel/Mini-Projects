@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dde1e7;
+}
+.container {
+  width: 330px;
+  padding: 40px 30px;
+  background: #dde1e7;
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.result {
+  height: 60px;
+  width: 100%;
+  background: #dde1e7;
+  border-radius: 5px;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.result input {
+  height: 100%;
+  width: 100%;
+  background: none;
+  color: #595959;
+  border: none;
+  outline: none;
+  text-align: right;
+  padding: 0 20px;
+  font-size: 30px;
+  font-weight: 500;
+  pointer-events: none;
+}
+.container .buttons {
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+.row button {
+  height: 56px;
+  width: 56px;
+  font-size: 23px;
+  margin: 4px;
+  border: none;
+  outline: none;
+  color: #595959;
+  background: #dde1e7;
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.row button:focus {
+  color: #00a037;
+  transform: scale(0.9);
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+h1 {
+  text-align: center;
+  padding-bottom: 23px;
+  color: #595959;
+}
